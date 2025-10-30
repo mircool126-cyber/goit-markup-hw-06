@@ -562,6 +562,12 @@ cursor: pointer;
 }
 
 /* Features-block */
+@media (min-width: 1158px) {
+  .features {
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+  }
+}
 
 .features {
   padding-top: 120px;
@@ -1655,10 +1661,7 @@ height: 112px;
     margin-left: 16px;
     fill: #ffffff;
   }
-   .social-block,
-  .footer-content {
-    margin-right: 0;
-  }
+   
 }
 
 
