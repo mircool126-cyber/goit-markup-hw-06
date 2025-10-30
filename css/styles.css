@@ -2022,4 +2022,10 @@ position: fixed;
   }
 
 }
+/* --- Ховаємо бургер на великих екранах --- */
+@media (min-width: 1158px) {
+  .menu-toggle {
+    display: none !important;
+  }
+}
 
