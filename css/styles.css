@@ -396,8 +396,7 @@ height: 432px;
   .hero-btn {
 border-radius: 4px;
 padding: 16px 32px;
-width: 169px;
-height: 56px; 
+
 }
 .hero .hero-title {          
     font-size: 36px;
@@ -1121,8 +1120,8 @@ height: 112px;
     text-align: center;
     margin: 0 auto;          
     width: 100%;
-    width: 208px;
-height: 80px;
+    /* width: 208px; тимчасово прибрав*/
+    height: 80px;
 
   }
 
