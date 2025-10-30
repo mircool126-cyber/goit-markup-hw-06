@@ -432,7 +432,7 @@ background-repeat: no-repeat;
   url("../images/people-office-2x.jpg"); 
    max-width: 100%;
    padding: 72px 0; 
-height: 432px;
+min-height: 432px !important;
   }
 
   .hero .container {
@@ -443,7 +443,7 @@ height: 432px;
      font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
-    max-width: 216px;
+    max-width: 320px;
     text-align: center;
     margin-bottom: 72px;
     
@@ -454,7 +454,8 @@ border-radius: 4px;
 padding: 16px 32px;
 
 }
-.hero .hero-title {          
+.hero .hero-title { 
+  font-weight: 700;         
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
