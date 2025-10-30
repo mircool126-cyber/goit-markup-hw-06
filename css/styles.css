@@ -1526,7 +1526,8 @@ height: 112px;
 
   /* Логотип + текст */
   .footer-content {
-    flex-basis: calc((100% - 24px) / 2); /* ліва половина */
+   flex-basis: calc(50% - 12px);
+   margin-right: 0 !important;
   }
 
   .logo-footer {
@@ -1555,7 +1556,11 @@ height: 112px;
 
   /* Social media — права половина */
   .social-block {
-    flex-basis: calc((100% - 24px) / 2); /* права половина */
+    flex-basis: calc(50% - 12px);
+    margin-top: 0; /* прибирає небажаний зсув вниз */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .title-social {
