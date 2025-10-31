@@ -556,7 +556,8 @@ cursor: pointer;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 432px;
+
+
     padding: 112px 0;
     text-align: center;
   }
@@ -673,10 +674,6 @@ cursor: pointer;
 }
 /* -----Features для мобільного------ */
 @media (max-width: 767px) {
-  .container{
-    width: 288px;
-height: 696px;
-  }
   .features {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -727,10 +724,6 @@ text-align: left;
 /* -------Features для планшета-------- */
 
 @media (min-width: 768px) and (max-width: 1157px) {
-  .container {
-    width: 736px;
-height: 312px;   
-  }
   .features {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -975,9 +968,6 @@ height: 40px;
 
 /* ===== TEAM для планшета (768px - 1157px) ===== */
 @media (min-width: 768px) and (max-width: 1157px) {
-  .container {
-    padding: 0 ;    
-  }
   .team {
    
    padding: 96px 108px;
